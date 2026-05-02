@@ -1,0 +1,17 @@
+.text {
+  text-align: center;
+  padding: 80px 24px;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.03em;
+  animation: pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.45;
+  }
+  50% {
+    opacity: 1;
+  }
+}
